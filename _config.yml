@@ -1,0 +1,33 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            Alec Davila
+tagline:          'Full-Stack'
+description:      'My Blog Covering Tutorials, and Some Personal Interests'
+url:              http://alecdavila.me
+baseurl:          /
+
+author:
+  name:           'Alec Davila'
+  twitter:         __alecdavila
+  github:          fullpint
+  email:           dev@alecdavila.me
+
+paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/fullpint/blog
+
+gems:
+  - jekyll-gist
+  - jekyll-paginate
+  - liquid_pluralize
+  - liquid_reading_time
