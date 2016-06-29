@@ -120,7 +120,7 @@ webpack: bundle is now VALID.
 
 And now head over to where it's being served [http://localhost:8080/webpack-dev-server/](http://localhost:8080/webpack-dev-server/). You should see your "Test: Hello World". *Oops!!* You probably see something like:
 
-![](http://127.0.0.1:4000/public/images/2016-06-20-using-webpack/dev-server-screen-1.png "dev-server-screen")
+![](http://alecdavila.me/public/images/2016-06-20-using-webpack/dev-server-screen-1.png "dev-server-screen")
 
 Don't worry our server is working just as expected. It's just currently showing all of the files being served. In fact if you click `buil` it will take you to [http://localhost:8080/webpack-dev-server/build](http://localhost:8080/webpack-dev-server/build) which will show what we are expecting. Let's configure our `webpack-dev-server` so we won't have to navigate this way, and get rid of the pesky "App ready" bar.
 
@@ -181,4 +181,4 @@ With that done we can `require()` it inside `index.js`. And it will be applied t
 
 ## Conclusion
 
-We've gone over a really simple build set-up but hopefully you can already see the clear advantage when using Webpack. In the next article you can see how to really leverage some of our new found uses to get a better hold on a more-complex projects. The `hot-module-replacement` and streamlined build process really gives us back a lot of time from our projects. 
+We've gone over a really simple build set-up but hopefully you can already see the clear advantage when using Webpack. In the next article you can see how to really leverage some of our new found uses to get a better hold on a more-complex projects. The `hot-module-replacement` and streamlined build process really gives us back a lot of time from our projects.
