@@ -125,7 +125,7 @@ We need to be able to test if our routes do as we say they will. [Postman](https
 
 Fire up Postman and make a GET request to http://localhost:1600/ and it should look like this.
 
-![](http://alecdavila.me/public/images/2016-06-25-simple-jwt-authenticatoin-server/post-man-first-shot.png "postman screen shot")
+![](http://alecdavila.me/public/images/2016-06-20-using-webpack/post-man-first-shot.png "postman screen shot")
 
 ### Building the Signup Process.
 
