@@ -6,11 +6,13 @@ comments: true
 
 ##Getting More
 
-If you just joined us -- this is Using Webpack Part 2, and that  means there is a [Using Webpack part 1](http://alecdavila.me/2016/06/20/using-webpack-part-1). There is also the final commit for [part 1 here](https://github.com/FullPint/webpack_demo_part-1/commit/061af1fa70f1a8d9974c1426b84fbf946fd35f33). This will get you caught up to where we are currently. Part 1 was largely how to setup a quick project and it was also an attempt to show just how easy Webpack is to use.
-
 Here, in Part 2 we will first  refactor our original code to use [React](https://facebook.github.io/react/). While we are there we will take a brief opportunity to add a little more function to our page, and expose some of what React has to offer.
 
 After the React bit, we will dive back into Webpack itself and try to leverage some more complex uses of the package. This type of stuff should be useful once you're more comfortable using Webpack.
+
+<!--more-->
+
+If you just joined us -- this is Using Webpack Part 2, and that  means there is a [Using Webpack part 1](http://alecdavila.me/2016/06/20/using-webpack-part-1). There is also the final commit for [part 1 here](https://github.com/FullPint/webpack_demo_part-1/commit/061af1fa70f1a8d9974c1426b84fbf946fd35f33). This will get you caught up to where we are currently. Part 1 was largely how to setup a quick project and it was also an attempt to show just how easy Webpack is to use.
 
 ###Refactoring
 

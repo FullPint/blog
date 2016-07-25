@@ -4,9 +4,10 @@ title: Why Jekyll?
 comments: true
 ---
 
+##Comparing Blog Generators
+This is my first blog post and it includes brief overview on why I chose Jekyll for this blog. I go over a quick install and compare the process to a few other static and dynamic blog generators.
 
-
-> A brief overview on why I chose Jekyll for this blog. I go over a quick install and compare the process to a few other static and dynamic blog generators.
+<!--more-->
 
 ## My Blog Requirements
 * Lite Weight

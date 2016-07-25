@@ -19,6 +19,8 @@ author:
   email:           dev@alecdavila.me
 
 paginate:         5
+paginate_path:    "blog/page:num"
+excerpt_separator: <!--more-->
 
 # Custom vars
 version:          2.1.0

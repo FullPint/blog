@@ -12,6 +12,8 @@ The first article will cover how to quickly set-up a project using Webpack, and 
 
 In the second article we will play with Webpack and hopefully this will provide a little better understanding of what can be done with the package - along with a better understanding of what is going on.
 
+<!--more-->
+
 You can find the final commit for [part one here](https://github.com/FullPint/webpack_demo_part1/commit/061af1fa70f1a8d9974c1426b84fbf946fd35f33), and the link the  [part two article here](http://alecdavila.me/2016/06/21/using-webpack-part-2).
 
 ##What is Webpack?

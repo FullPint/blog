@@ -9,6 +9,8 @@ If you're new to the `NodeJs` world then maybe you don't know much about [Expres
 
 With our ambition to provide a RESTful service to different front-end applications -- we need to make our authentication process stateless. While normally it would be easy to provide sessions and cookies, the two inherently affect the state. With [JWT](https://jwt.io/) we issue a token that is signed by us and only verified by us. Since the token is passed on all requests and only verified against our `Secret` we can insure we remain stateless.
 
+<!--more-->
+
 I recommend reading the [intro](https://jwt.io/introduction/) at the official `JWT` site. This will be a great primer for when you're unsure about what is going on.
 
 > A BIG NOTE: This is not production ready at-all. A few reasons: Our Tokens aren't complete in hiding extraneous info. There is also managing token-sign-outs and password changes. While we have expirations it is possible to use another server to log logged-out tokens until they expire. Another thing is we do not have SSL to protect users from token capture. I do recommend taking the opportunity to check out [Lets Encrypt](https://letsencrypt.org/) if you're looking to secure your domain. Also you should be using your Env variable -- where here we just define them ourselves.
