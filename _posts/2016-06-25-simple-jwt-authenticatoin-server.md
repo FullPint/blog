@@ -125,7 +125,7 @@ We need to be able to test if our routes do as we say they will. [Postman](https
 
 Fire up Postman and make a GET request to http://localhost:1600/ and it should look like this.
 
-![](http://imgur.com/0N7legm")
+![](http://i.imgur.com/0N7legm.png?1")
 
 ### Building the Signup Process.
 
